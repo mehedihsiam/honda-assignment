@@ -1,0 +1,40 @@
+/* root css  */
+:root{
+    --btn-clr-a: #E76F51;
+}
+
+/* common css */
+.btn-a{
+    background-color: var(--btn-clr-a);
+    padding: 10px 45px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-weight: 500;
+}
+
+.dfr-text-a{
+    color: var(--btn-clr-a);
+}
+
+/* banner section  */
+.banner{
+    height: 600px;
+    width: 100%;
+    background-color: #264653;
+}
+
+/* featured bike */
+
+.img-gray{
+    filter: grayscale(100%);
+}
+
+/* clients review */
+.user-img{
+    width: 40%;
+}
+
+.radius{
+    border-radius: 50%;
+}
